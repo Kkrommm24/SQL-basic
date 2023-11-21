@@ -1,0 +1,16 @@
+USE master;
+GO
+CREATE DATABASE Sangt3_3
+ON
+( NAME = Sangt3_3,
+FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL16.GIAHUNG\MSSQL\DATA\Sangt3_3.mdf',
+SIZE = 10,
+MAXSIZE = 50,
+FILEGROWTH = 5 )
+LOG ON
+( NAME = Sangt3_3_log,
+FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL16.GIAHUNG\MSSQL\DATA\Sangt3_3.ldf',
+SIZE = 5MB,
+MAXSIZE = 25MB,
+FILEGROWTH = 5MB );
+GO
